@@ -1,0 +1,34 @@
+{
+  "name": "eslint-plugin-r3f",
+  "version": "1.0.0",
+  "description": "R3F linter",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinGiraud-dev/eslint-plugin-r3f.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ValentinGiraud-dev/eslint-plugin-r3f/issues"
+  },
+  "homepage": "https://github.com/ValentinGiraud-dev/eslint-plugin-r3f#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.50.0",
+    "@typescript-eslint/utils": "^8.50.0",
+    "eslint": "^9.39.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2",
+    "@typescript-eslint/rule-tester": "^8.50.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15"
+  }
+}
