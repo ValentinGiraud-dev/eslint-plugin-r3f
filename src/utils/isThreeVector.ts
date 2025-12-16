@@ -2,7 +2,7 @@ import { TSESTree } from "@typescript-eslint/utils";
 
 export default function isThreeVector(node: TSESTree.NewExpression) {
     if (node.callee.type === "Identifier") {
-      return ["Vector2", "Vector3", "Color"].includes(node.callee.name);
+      return ["Vector2", "Vector3", "Vector4", "Color"].includes(node.callee.name);
     }
   
     if (node.callee.type === "MemberExpression") {
